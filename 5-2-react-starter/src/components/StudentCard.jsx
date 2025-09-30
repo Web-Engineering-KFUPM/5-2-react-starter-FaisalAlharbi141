@@ -1,8 +1,8 @@
-function StudentCard() {
+function StudentCard(props) {
   return <div>
-    <h3>Name: Faisal Alharbi</h3>;
-    <p>ID: s202261000</p>
-    <p>Department: Information and Computer Secience</p>
+    <h3>Name: {props.name}</h3>
+     <p>Student ID: {props.id}</p>
+     <p>Department: {props.dept}</p>
   </div>
 }
 export default StudentCard;
